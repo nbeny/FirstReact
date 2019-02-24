@@ -3,11 +3,22 @@
     margin-bottom: 30px;
 }
 
+/*
 li:hover{
     background-color: #E0E0E0
+}
+*/
+
+li:hover{
+    transition: transform .25s ease-out;
+    transform: scale(1.1);
 }
 
 .title_list_item{
     padding-top: 40px;
     text-align: center;
+}
+
+#root{
+    padding: 50px;
 }
