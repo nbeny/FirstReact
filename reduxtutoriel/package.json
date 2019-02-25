@@ -1,13 +1,15 @@
 {
-  "name": "userconsulte",
+  "name": "reduxtutoriel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
     "react-scripts": "2.1.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "typescript": "^3.3.3333"
   },
   "scripts": {
     "start": "react-scripts start",
