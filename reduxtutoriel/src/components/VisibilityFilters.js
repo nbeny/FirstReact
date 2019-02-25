@@ -20,10 +20,10 @@ const VisibilityFilters = ({ activeFilter, setFilter }) => {
             onClick={() => {
               setFilter(currentFilter);
             }}
-          >
+            >
             {currentFilter}
-          </span>
-          </div>
+            </span>
+        </div>
         );
       })}
     </div>
