@@ -13,7 +13,7 @@ class UserList extends Component {
                             return (
                                 <li className="list-group-item"
                                     key={user.id}
-                                    onClick={ () => this.props.selectUser(user)}>
+                                    onClick={ () => selectUser(user)}>
                                     {user.name}
                                 </li>
                             )
@@ -32,7 +32,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch){
-    bindActionCreators({selectUser:selectUser}, dispatch)
+    return bindActionCreators({selectUser:selectUser}, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(UserList)

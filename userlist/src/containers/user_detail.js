@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 class UserDetail extends Component {
     render () {
-        const {user} = this.props
+        const user = this.props
         if(!user){
           return  <div>Selectionnez un utilisateur pour démarrer</div>
         }
@@ -18,10 +18,10 @@ class UserDetail extends Component {
     }
 }
 
- const mapStateToProps = (state) => {
-  return {
-    user: state.activeUser
-  }
+const mapStateToProps = (state) => {
+    return {
+      user: state.activeUser
+    }
 }
 
 export default connect(mapStateToProps)(UserDetail)

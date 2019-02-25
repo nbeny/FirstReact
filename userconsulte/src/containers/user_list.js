@@ -32,7 +32,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch){
-    bindActionCreators({selectUser:selectUser}, dispatch)
+    return bindActionCreators({selectUser:selectUser}, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(UserList)
