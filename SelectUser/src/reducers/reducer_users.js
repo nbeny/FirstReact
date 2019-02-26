@@ -1,3 +1,8 @@
+/**
+ * 1. faire une fonction qui return des nom (il faut l'exporter pour s'en servir) | (2. dans reducer/index.js)
+ * 4. On rajoute quelque données (id, role, active)
+ * 5. Créer un components user_list.js | (6. dans user_list.js)
+ */
 export default function(){
 
     return [
