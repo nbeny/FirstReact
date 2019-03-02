@@ -8,8 +8,9 @@ import MortalityListItem from "../components/mortality_list_item"
 class MortalityList extends Component {
     constructor(props){
         super(props)
-        
+
     }
+    
     componentWillMount () {
        this.props.fetchMortality(this.props.defaultCountry)
     }
